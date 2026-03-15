@@ -94,16 +94,21 @@ CloudFront cache is automatically invalidated after deployment to ensure users a
 ---
 
 # Repository Structure
-├── .github/workflows
+
+├── .github
+│ └── workflows
 │ └── deploy.yml
+│
 ├── architecture
 │ └── aws-static-website-cicd-architecture.png
+│
 ├── screenshots
 │ ├── 01-cloudfront-distribution.png
 │ ├── 02-s3-private-bucket.png
 │ ├── 03-github-actions-success.png
 │ ├── 04-cloudfront-invalidation.png
 │ └── 05-live-website.png
+│
 ├── index.html
 ├── style.css
 └── README.md
