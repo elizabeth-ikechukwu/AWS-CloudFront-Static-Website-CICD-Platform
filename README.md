@@ -78,7 +78,7 @@ CloudFront cache is automatically invalidated after deployment to ensure users a
 # Project Evidence
 
 ### CloudFront Distribution
-![CloudFront Distribution](screenshots/01-cloudfront-distribution.png)
+![CloudFront Distribution](screenshots/01-cloud-front-distribution.png)
 
 ### Private S3 Bucket (Block Public Access Enabled)
 ![S3 Security](screenshots/02-s3-private-bucket.png)
