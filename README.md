@@ -78,19 +78,19 @@ CloudFront cache is automatically invalidated after deployment to ensure users a
 ## Project Evidence
 
 ### CloudFront Distribution
-![CloudFront Distribution](screenshots/01-cloud-front-distribution.png)
+![CloudFront Distribution](01-cloud-front-distribution.png)
 
 ### Private S3 Bucket (Block Public Access Enabled)
-![S3 Security](screenshots/02-s3-private-bucket.png)
+![S3 Security](02-s3-private-bucket.png)
 
 ### GitHub Actions CI/CD Deployment
-![CI/CD Success](screenshots/03-github-actions-success.png)
+![CI/CD Success](03-github-actions-success.png)
 
 ### CloudFront Cache Invalidation
-![CloudFront Invalidation](screenshots/04-cloudfront-invalidation.png)
+![CloudFront Invalidation](04-cloudfront-invalidation.png)
 
 ### Live Website
-![Live Website](screenshots/05-live-website.png)
+![Live Website](05-live-website.png)
 ---
 
 # Repository Structure
