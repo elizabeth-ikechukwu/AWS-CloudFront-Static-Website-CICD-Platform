@@ -44,23 +44,22 @@ The system ensures:
 
 ---
 
-# Key DevOps Features
+## Project Evidence
 
-### CI/CD Automation
-GitHub Actions automatically deploys new changes whenever code is pushed to the repository.
+### CloudFront Distribution
+![CloudFront Distribution](screenshots/01-cloudfront-distribution.png)
 
-### Secure Infrastructure
-The S3 bucket is **private** and accessible only through **CloudFront Origin Access Control (OAC)**.
+### Private S3 Bucket (Block Public Access Enabled)
+![S3 Security](screenshots/02-s3-private-bucket.png)
 
-### Global CDN Delivery
-CloudFront distributes the website through AWS edge locations worldwide.
+### GitHub Actions CI/CD Deployment
+![CI/CD Success](screenshots/03-github-actions-success.png)
 
-### HTTPS Encryption
-TLS certificates are managed through **AWS Certificate Manager (ACM)**.
+### CloudFront Cache Invalidation
+![CloudFront Invalidation](screenshots/04-cloudfront-invalidation.png)
 
-### Cache Invalidation
-CloudFront cache is automatically invalidated after deployment to ensure users always see the latest version.
-
+### Live Website
+![Live Website](screenshots/05-live-website.png)
 ---
 
 # Technologies Used
