@@ -1,7 +1,5 @@
 # AWS CloudFront Static Website CI/CD Platform
 
-Live Demo: https://lizzycloudlab.online
-
 A production-style static website delivery platform built on AWS using CloudFront CDN, a private S3 origin, and automated CI/CD with GitHub Actions.
 
 This project demonstrates real DevOps practices including secure infrastructure design, automated deployments, and global content delivery through a CDN.
@@ -146,6 +144,8 @@ Investigation revealed that the DNS provider did not initially allow the require
 * ACM certificate validation completed successfully
 
 This type of issue commonly occurs when integrating **external DNS providers with AWS services such as ACM and CloudFront**.
+
+Deployment note: This project was successfully deployed and tested on a custom domain. The live environment was later decommissioned to avoid unnecessary AWS costs, while the full implementation and workflow remain documented in this repository.
 
 # Author
 
